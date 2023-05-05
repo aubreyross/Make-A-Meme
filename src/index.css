@@ -31,16 +31,16 @@ main {
 }
 
 .header--project {
-  font-size: 0.75rem;
+  font-size: 0.90rem;
   font-weight: 500;
 }
 
-form {
+.form {
   display: grid;
-  grid-template: 40px 40px / 1fr 1fr; 
+  grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
-
 
 .form--input {
   font-family: "Karla", sans-serif;
@@ -50,10 +50,16 @@ form {
 }
 
 .form--button {
-  grid-column: 1 / span 2;
+  grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
   border: none;
-  cursor: pointer
+  cursor: pointer;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
 }
